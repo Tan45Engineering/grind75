@@ -7,7 +7,7 @@ You may assume that each input would have exactly one solution, and you may not 
 
 You can return the answer in any order.
 * */
-public class TwoSum01 {
+public class _01TwoSum01 {
     public int[] twoSum(int[] nums, int target) {
         int[] sol = new int[2];
 
@@ -28,7 +28,7 @@ public class TwoSum01 {
     }
     public static void main(String args[]){
         System.out.println("Tan45Engineering");
-        TwoSum01 object = new TwoSum01();
+        _01TwoSum01 object = new _01TwoSum01();
         int nums[] = {2,7,11,15};
         int target = 9;
         int resultArr[] = object.twoSum(nums, target);
