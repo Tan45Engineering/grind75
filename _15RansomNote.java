@@ -8,7 +8,7 @@ Example 1:
 
 Input: ransomNote = "a", magazine = "b"
 Output: false*/
-public class _15RansomeNote {
+public class _15RansomNote {
     public boolean canConstruct(String ransomNote, String magazine) {
         int[] magazineFreq = new int[26]; //Assuming lowercase English letters only
 
@@ -30,7 +30,7 @@ public class _15RansomeNote {
     }
 
     public static void main(String args[]){
-        _15RansomeNote obj = new _15RansomeNote();
+        _15RansomNote obj = new _15RansomNote();
         String ransomNote = "a";
         String magazine = "b";
         System.out.println(obj.canConstruct(ransomNote, magazine));
